@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go build
+*.out
+
+# Go build cache and compiled objects
+*.a
+*.o
+
+# Build artifacts and binaries
+bin/
+build/
+dist/
+
+# Dependency directories (if using vendoring)
+vendor/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Logs and temp files
+*.log
+tmp/
+*.tmp
+
+# Coverage reports
+*.cover
+coverage.out
+
+# Environment / local configs
+.env
+.env.local
+
+# Test cache
+*.testcache
